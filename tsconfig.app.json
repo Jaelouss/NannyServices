@@ -21,7 +21,14 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "paths": {
+      "@pages": ["./src/pages/index.ts"],
+      "@components": ["./src/components/index.ts"],
+      "@theme/*": ["./src/theme/*"],
+      "@customTypes/*": ["./src/types/*"]
+    }
   },
   "include": ["src"]
 }
