@@ -32,7 +32,7 @@ const CheckIconBox = styled.div`
   height: 54px;
   border-radius: 13px;
   background: ${(props) => props.theme.colors.main};
-  color: ${(props) => props.theme.colors.background};
+  color: ${(props) => props.theme.colors.whiteText};
 `;
 
 const TextWrapper = styled.div`

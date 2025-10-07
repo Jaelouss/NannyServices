@@ -29,7 +29,11 @@
       "@styled/*": ["./src/theme/styledComponents/*"],
       "@theme/*": ["./src/theme/*"],
       "@customTypes/*": ["./src/types/*"],
-      "@assets": ["./src/assets/index.ts"]
+      "@assets": ["./src/assets/index.ts"],
+      "@store/*": ["./src/store/*"],
+      "@modals": ["./src/components/Modals/index.ts"],
+      "@const/*": ["./src/constants/*"],
+      "@UI/*": ["./src/components/UI/*"]
     }
   },
   "include": ["src"]

@@ -56,7 +56,7 @@ const RightItem = styled.li`
   position: relative;
 `;
 const Title = styled.h1`
-  color: ${(props) => props.theme.colors.background};
+  color: ${(props) => props.theme.colors.whiteText};
   font-size: 70px;
   font-weight: 500;
   line-height: 70px;
@@ -64,7 +64,7 @@ const Title = styled.h1`
   margin-bottom: 28px;
 `;
 const Text = styled.p`
-  color: ${(props) => props.theme.colors.background};
+  color: ${(props) => props.theme.colors.whiteText};
   font-size: 28px;
   line-height: 30px;
   letter-spacing: -0.56px;
@@ -78,7 +78,7 @@ const StartLink = styled(Link)`
   gap: 18px;
   border-radius: 30px;
   border: 1px solid rgba(251, 251, 251, 0.4);
-  color: ${(props) => props.theme.colors.background};
+  color: ${(props) => props.theme.colors.whiteText};
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;

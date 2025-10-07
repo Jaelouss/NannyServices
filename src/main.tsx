@@ -4,11 +4,13 @@ import "./index.css";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router/router";
 import { CustomThemeProvider } from "@theme/ThemeProvider";
+import { ModalRoot } from "@components";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <CustomThemeProvider>
       <RouterProvider router={router} />
+      <ModalRoot />
     </CustomThemeProvider>
   </StrictMode>
 );

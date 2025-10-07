@@ -3,7 +3,7 @@ import { flex } from "@styled/flex";
 import { NavLink } from "react-router-dom";
 
 export const Navigation = () => {
-  const login = true;
+  const login = false;
   return (
     <NavBox>
       <RouteLink to={"/"}>Home</RouteLink>
@@ -13,12 +13,12 @@ export const Navigation = () => {
   );
 };
 const NavBox = styled.nav`
-  ${flex({ direction: "row", gap: "40px", justify: "flex-start" })}
+  ${flex({ direction: "row", gap: "40px", justify: "flex-end" })}
   width: 250px;
   margin-left: 220px;
 `;
 const RouteLink = styled(NavLink)`
-  color: ${(props) => props.theme.colors.background};
+  color: ${(props) => props.theme.colors.whiteText};
   position: relative;
   &.active::after {
     content: "";

@@ -4,6 +4,7 @@ export const baseTheme: ThemeType = {
   colors: {
     text: "#11101C",
     grayText: "rgba(17, 16, 28, 0.50)",
+    whiteText: "#FBFBFB",
     notActiveText: "rgba(17, 16, 28, 0.30)",
     price: "#38CD3E",
     yellow: "#FFC531",

@@ -3,6 +3,7 @@ export interface ColorPalette {
   disabled: string;
   text: string;
   grayText: string;
+  whiteText: string;
   notActiveText: string;
   price: string;
   yellow: string;

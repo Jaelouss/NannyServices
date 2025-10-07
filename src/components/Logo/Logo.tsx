@@ -6,7 +6,7 @@ export const Logo: React.FC = () => {
 };
 
 export const LogoStyled = styled(Link)`
-  color: ${(prop) => prop.theme.colors.background};
+  color: ${(prop) => prop.theme.colors.whiteText};
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
